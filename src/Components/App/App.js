@@ -1,4 +1,6 @@
+import "./App";
 import "./App.css";
+import "../SearchBar/SearchBar";
 
 function App() {
   return (
@@ -6,11 +8,11 @@ function App() {
       <h1>
         Ja<span class="highlight">mm</span>ing
       </h1>
+      <h2>Heading 2</h2>
       <div class="App">
-        <!-- Add a SearchBar component -->
+        <SearchBar />
         <div class="App-playlist">
-          <!-- Add a SearchResults component -->
-          <!-- Add a Playlist component -->
+          
         </div>
       </div>
     </div>
